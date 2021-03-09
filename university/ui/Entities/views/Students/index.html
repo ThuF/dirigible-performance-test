@@ -22,40 +22,18 @@
 			<thead>
 				<tr>
 					<th>#</th>
-					<th class="text-capitalize">Id</th>
 					<th class="text-capitalize">FirstName</th>
 					<th class="text-capitalize">LastName</th>
 					<th class="text-capitalize">Age</th>
-					<th class="text-capitalize">Bio</th>
-					<th class="text-capitalize">Bio2</th>
-					<th class="text-capitalize">Bio3</th>
-					<th class="text-capitalize">Bio4</th>
-					<th class="text-capitalize">Bio5</th>
-					<th class="text-capitalize">Bio6</th>
-					<th class="text-capitalize">Bio7</th>
-					<th class="text-capitalize">Bio8</th>
-					<th class="text-capitalize">Bio9</th>
-					<th class="text-capitalize">Bio10</th>
 					<th></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat="next in data">
 					<td>{{(dataPage - 1) * dataLimit + $index + 1}}</td>
-					<td>{{next.Id}}</td>
 					<td>{{next.FirstName}}</td>
 					<td>{{next.LastName}}</td>
 					<td>{{next.Age}}</td>
-					<td>{{next.Bio}}</td>
-					<td>{{next.Bio2}}</td>
-					<td>{{next.Bio3}}</td>
-					<td>{{next.Bio4}}</td>
-					<td>{{next.Bio5}}</td>
-					<td>{{next.Bio6}}</td>
-					<td>{{next.Bio7}}</td>
-					<td>{{next.Bio8}}</td>
-					<td>{{next.Bio9}}</td>
-					<td>{{next.Bio10}}</td>
 					<td>
 						<i class="close fa fa-remove" ng-click="openDeleteDialog(next)" style="font-size: 1.4em"></i>
 						<i class="close fa fa-bars" ng-click="openEditDialog(next)" style="margin-right: 0.5em; font-size: 1.4em"></i>					</td>
@@ -87,47 +65,47 @@
 						</div>
 						<div class="form-group">
 							<label>Age</label>
-							<input   type="text"  maxlength="20" class="form-control" placeholder="Enter age" ng-model="entity.Age" ng-change="updateCalculatedProperties()">
+							<input   type="number" class="form-control" placeholder="Enter age" ng-model="entity.Age" ng-change="updateCalculatedProperties()">
 						</div>
 						<div class="form-group">
 							<label>Bio</label>
-							<input   type="text"  maxlength="20" class="form-control" placeholder="Enter bio" ng-model="entity.Bio" ng-change="updateCalculatedProperties()">
+							<textarea    maxlength="20" class="form-control" placeholder="Enter bio" ng-model="entity.Bio" ng-change="updateCalculatedProperties()"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Bio2</label>
-							<input   type="text"  maxlength="20" class="form-control" placeholder="Enter bio2" ng-model="entity.Bio2" ng-change="updateCalculatedProperties()">
+							<textarea    maxlength="20" class="form-control" placeholder="Enter bio2" ng-model="entity.Bio2" ng-change="updateCalculatedProperties()"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Bio3</label>
-							<input   type="text"  maxlength="20" class="form-control" placeholder="Enter bio3" ng-model="entity.Bio3" ng-change="updateCalculatedProperties()">
+							<textarea    maxlength="20" class="form-control" placeholder="Enter bio3" ng-model="entity.Bio3" ng-change="updateCalculatedProperties()"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Bio4</label>
-							<input   type="text"  maxlength="20" class="form-control" placeholder="Enter bio4" ng-model="entity.Bio4" ng-change="updateCalculatedProperties()">
+							<textarea    maxlength="20" class="form-control" placeholder="Enter bio4" ng-model="entity.Bio4" ng-change="updateCalculatedProperties()"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Bio5</label>
-							<input   type="text"  maxlength="20" class="form-control" placeholder="Enter bio5" ng-model="entity.Bio5" ng-change="updateCalculatedProperties()">
+							<textarea    maxlength="20" class="form-control" placeholder="Enter bio5" ng-model="entity.Bio5" ng-change="updateCalculatedProperties()"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Bio6</label>
-							<input   type="text"  maxlength="20" class="form-control" placeholder="Enter bio6" ng-model="entity.Bio6" ng-change="updateCalculatedProperties()">
+							<textarea    maxlength="20" class="form-control" placeholder="Enter bio6" ng-model="entity.Bio6" ng-change="updateCalculatedProperties()"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Bio7</label>
-							<input   type="text"  maxlength="20" class="form-control" placeholder="Enter bio7" ng-model="entity.Bio7" ng-change="updateCalculatedProperties()">
+							<textarea    maxlength="20" class="form-control" placeholder="Enter bio7" ng-model="entity.Bio7" ng-change="updateCalculatedProperties()"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Bio8</label>
-							<input   type="text"  maxlength="20" class="form-control" placeholder="Enter bio8" ng-model="entity.Bio8" ng-change="updateCalculatedProperties()">
+							<textarea    maxlength="20" class="form-control" placeholder="Enter bio8" ng-model="entity.Bio8" ng-change="updateCalculatedProperties()"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Bio9</label>
-							<input   type="text"  maxlength="20" class="form-control" placeholder="Enter bio9" ng-model="entity.Bio9" ng-change="updateCalculatedProperties()">
+							<textarea    maxlength="20" class="form-control" placeholder="Enter bio9" ng-model="entity.Bio9" ng-change="updateCalculatedProperties()"></textarea>
 						</div>
 						<div class="form-group">
 							<label>Bio10</label>
-							<input   type="text"  maxlength="20" class="form-control" placeholder="Enter bio10" ng-model="entity.Bio10" ng-change="updateCalculatedProperties()">
+							<textarea    maxlength="20" class="form-control" placeholder="Enter bio10" ng-model="entity.Bio10" ng-change="updateCalculatedProperties()"></textarea>
 						</div>
 						<div class="modal-footer">
 							<input type="submit" value="Save" class="btn btn-primary btn-lg" ng-show="actionType === 'new'" ng-click="create()">

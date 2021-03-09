@@ -14,7 +14,7 @@
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Id",
-                        "widgetIsMajor": "true",
+                        "widgetIsMajor": "false",
                         "widgetLength": "20",
                         "widgetType": "TEXTBOX"
                     },
@@ -55,13 +55,13 @@
                         "dataName": "AGE",
                         "dataNullable": "true",
                         "dataPrimaryKey": "false",
-                        "dataType": "VARCHAR",
+                        "dataType": "INTEGER",
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Age",
                         "widgetIsMajor": "true",
                         "widgetLength": "20",
-                        "widgetType": "TEXTBOX"
+                        "widgetType": "NUMBER"
                     },
                     {
                         "calculatedPropertyExpression": "",
@@ -74,9 +74,9 @@
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Bio",
-                        "widgetIsMajor": "true",
+                        "widgetIsMajor": "false",
                         "widgetLength": "20",
-                        "widgetType": "TEXTBOX"
+                        "widgetType": "TEXTAREA"
                     },
                     {
                         "calculatedPropertyExpression": "",
@@ -89,9 +89,9 @@
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Bio2",
-                        "widgetIsMajor": "true",
+                        "widgetIsMajor": "false",
                         "widgetLength": "20",
-                        "widgetType": "TEXTBOX"
+                        "widgetType": "TEXTAREA"
                     },
                     {
                         "calculatedPropertyExpression": "",
@@ -104,9 +104,9 @@
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Bio3",
-                        "widgetIsMajor": "true",
+                        "widgetIsMajor": "false",
                         "widgetLength": "20",
-                        "widgetType": "TEXTBOX"
+                        "widgetType": "TEXTAREA"
                     },
                     {
                         "calculatedPropertyExpression": "",
@@ -119,9 +119,9 @@
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Bio4",
-                        "widgetIsMajor": "true",
+                        "widgetIsMajor": "false",
                         "widgetLength": "20",
-                        "widgetType": "TEXTBOX"
+                        "widgetType": "TEXTAREA"
                     },
                     {
                         "calculatedPropertyExpression": "",
@@ -134,9 +134,9 @@
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Bio5",
-                        "widgetIsMajor": "true",
+                        "widgetIsMajor": "false",
                         "widgetLength": "20",
-                        "widgetType": "TEXTBOX"
+                        "widgetType": "TEXTAREA"
                     },
                     {
                         "calculatedPropertyExpression": "",
@@ -149,9 +149,9 @@
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Bio6",
-                        "widgetIsMajor": "true",
+                        "widgetIsMajor": "false",
                         "widgetLength": "20",
-                        "widgetType": "TEXTBOX"
+                        "widgetType": "TEXTAREA"
                     },
                     {
                         "calculatedPropertyExpression": "",
@@ -164,9 +164,9 @@
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Bio7",
-                        "widgetIsMajor": "true",
+                        "widgetIsMajor": "false",
                         "widgetLength": "20",
-                        "widgetType": "TEXTBOX"
+                        "widgetType": "TEXTAREA"
                     },
                     {
                         "calculatedPropertyExpression": "",
@@ -179,9 +179,9 @@
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Bio8",
-                        "widgetIsMajor": "true",
+                        "widgetIsMajor": "false",
                         "widgetLength": "20",
-                        "widgetType": "TEXTBOX"
+                        "widgetType": "TEXTAREA"
                     },
                     {
                         "calculatedPropertyExpression": "",
@@ -194,9 +194,9 @@
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Bio9",
-                        "widgetIsMajor": "true",
+                        "widgetIsMajor": "false",
                         "widgetLength": "20",
-                        "widgetType": "TEXTBOX"
+                        "widgetType": "TEXTAREA"
                     },
                     {
                         "calculatedPropertyExpression": "",
@@ -209,9 +209,9 @@
                         "dataUnique": "false",
                         "isCalculatedProperty": "false",
                         "name": "Bio10",
-                        "widgetIsMajor": "true",
+                        "widgetIsMajor": "false",
                         "widgetLength": "20",
-                        "widgetType": "TEXTBOX"
+                        "widgetType": "TEXTAREA"
                     }
                 ],
                 "dataCount": "SELECT COUNT(*) AS COUNT FROM STUDENTS",
